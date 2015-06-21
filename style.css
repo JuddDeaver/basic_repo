@@ -1,0 +1,50 @@
+/*CSS reset settings here*/
+*{
+	border-radius: 30px;
+	font-family: 'Times New Roman', Georgia, serif;
+}
+
+#wrapper{
+ width: 930px;
+ height: 740px;
+ background-color: 	rgb(238,238,238);
+ border-radius: 0px;
+ /*display:  inline-block;*/
+ margin: auto;
+ vertical-align: top;
+ }
+#header{
+ height: 75px;
+ width: 880px;
+ background-color: rgb(221,221,221);
+ display:  block;
+}
+#navigation{
+ height: 375px;
+ width: 225px;
+ background-color: rgb(221,221,221);
+ display:  inline-block;
+ font-size: 10pt;
+ padding-left: 5px;
+ /*position: absolute;*/
+ top: 80px;
+}
+#main_content{
+ height: 505px;
+ width: 630px;
+ background-color: rgb(170,170,170);
+display: inline-block;
+/*position: absolute;*/
+top: 80px;
+left: 230px;
+ }
+#footer{
+ height: 70px;
+ width: 880px;
+ background-color: rgb(221,221,221);
+display:  block;
+}
+#navigation ul li a{
+	text-decoration: none;
+ 
+}
